@@ -12,3 +12,4 @@ Run **http-server** first
 - Add unit test case
 - Add phaser-debug
 - Dist by gulp or webpack?
+- Add phaser to tsd github
