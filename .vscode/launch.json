@@ -5,15 +5,15 @@
 			"name": "Launch index.html",
 			"type": "chrome",
 			"request": "launch",
-			"file": "index.html"
+			"file": "${workspaceRoot}/index.html"
 		},
 		{
 			"name": "Launch localhost with sourcemaps",
 			"type": "chrome",
 			"request": "launch",
-			"url": "http://localhost:8080/index.html",
+			"url": "http://0.0.0.0:2345/index.html",
 			"sourceMaps": true,
-			"webRoot": "."
+			"webRoot": "${workspaceRoot}/"
 		},
 		{
 			"name": "Attach",
